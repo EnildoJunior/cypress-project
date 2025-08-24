@@ -6,7 +6,7 @@ class HomePage {
     //Realiza o cadastro do login
     // */
     cadastro(){
-        cy.Login(homePageLocator.cadastro);
+        cy.clickButton(homePageLocator.cadastro);
     }
 
 }
