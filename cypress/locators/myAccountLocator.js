@@ -1,0 +1,21 @@
+export default {
+    buttonWomen: "[id='ui-id-4']",
+    buttonTops: "Tops: [id='ui-id-11']",
+    buttonJackets: "[id='ui-id-13']",
+    buttonCard: "[type='submit'][title='Add to Cart']:nth-child(1)",
+    buttonColor: "div[id='option-label-color-93-item-50']",
+    buttonSize: "div[data-option-label='M']",
+    buttonAddToCart: "[id='product-addtocart-button']",
+    buttonMiniCart: "div[data-block='minicart'] a[class='action showcart']",
+    buttonProceedtoCheckout: "button[id='top-cart-btn-checkout']",
+    inputStreetAddress: "input[name='street[1]']",
+    selectState: "select[name='region_id']",
+    optionState: "option[data-title='Alabama']",
+    inputCity: "[name='city']",
+    inputPostalCode: "[name='postcode']",
+    inputNumber: "[name='telephone']",
+    radioShippingMethods: "tr:nth-child(1) input[type='radio']",
+    buttonNext: "div[id='shipping-method-buttons-container'] button",
+    buttonPlaceOrder: "button[class='action primary checkout']",
+    messageSuccessBuy: "main[id='maincontent'] [class='page-title'] span"
+}
