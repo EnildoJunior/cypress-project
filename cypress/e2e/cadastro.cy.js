@@ -5,7 +5,7 @@ describe('Validar Compra', () => {
   beforeEach(()=>{
     cy.HomePage();
   })
-  it('cadastro', () => {
+  it('Cadastro', () => {
     HomePage.cadastro();
 
     CreateNewCustomerAccount.setCadastro().clicarBotão();

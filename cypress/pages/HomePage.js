@@ -1,5 +1,5 @@
 import Commands from "../support/commands";
-import { homePageLocator } from "../locators/homePageLocator";
+import homePageLocator from "../locators/homePageLocator";
 
 class HomePage {
     //*
@@ -8,7 +8,6 @@ class HomePage {
     cadastro(){
         cy.clickButton(homePageLocator.cadastro);
     }
-
 }
 
 export default new HomePage();
