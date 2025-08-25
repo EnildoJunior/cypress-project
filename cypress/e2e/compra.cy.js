@@ -11,8 +11,6 @@ describe('Validar Compra', () => {
 
     CreateNewCustomerAccount.setCadastro().clicarBotão();
 
-    MyAccount.clicarBotãoTops();
-    MyAccount.setInputAddress();
-    MyAccount.clicarBotãoCompra();
+    MyAccount.clicarBotãoTops().setInputAddress().clicarBotãoCompra();
   })
 })
