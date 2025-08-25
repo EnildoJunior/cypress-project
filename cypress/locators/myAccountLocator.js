@@ -1,6 +1,6 @@
 export default {
     buttonWomen: "[id='ui-id-4']",
-    buttonTops: "Tops: [id='ui-id-11']",
+    buttonTops: "[id='ui-id-11']",
     buttonJackets: "[id='ui-id-13']",
     buttonCard: "[type='submit'][title='Add to Cart']:nth-child(1)",
     buttonColor: "div[id='option-label-color-93-item-50']",

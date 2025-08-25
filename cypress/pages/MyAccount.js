@@ -14,6 +14,7 @@ class MyAccount {
         cy.clickButton(myAccountLocator.buttonAddToCart);
         cy.clickButton(myAccountLocator.buttonMiniCart);
         cy.clickButton(myAccountLocator.buttonProceedtoCheckout);
+        return this;
     }
 
     /* 
@@ -26,6 +27,7 @@ class MyAccount {
         cy.setInput(myAccountLocator.inputCity, "Montgomery");
         cy.setInput(myAccountLocator.inputPostalCode, "35203");
         cy.setInput(myAccountLocator.inputNumber, "(205) 764-2387");
+        return this;
     }
 
     /* 
@@ -36,7 +38,7 @@ class MyAccount {
         cy.clickButton(myAccountLocator.buttonNext);
         cy.clickButton(myAccountLocator.buttonPlaceOrder);
         cy.get(myAccountLocator.messageSuccessBuy).contains("Thank you for your purchase!").should("be.visible");
-
+        return this;
     }
 }
 
